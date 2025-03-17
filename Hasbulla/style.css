@@ -1,0 +1,52 @@
+
+div{
+    background-color: aqua; 
+    border: #000000 1px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.important{
+    background-color: blueviolet;
+    color: cornflowerblue;
+}
+
+.flexBox{
+    display: flex;
+    background-color: transparent;
+    border: none;
+    
+}
+
+.header{
+    display: flex;
+    background-color: orange;
+    border: none;
+    align-self: center;
+    
+}
+
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li{
+    margin-left: 20px;
+}
+
+.menu ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.menu ul li a:hover{
+    color: beige;
+}
