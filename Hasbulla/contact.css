@@ -1,0 +1,16 @@
+input{
+    background-color: rgb(255, 255, 255); 
+    border: #861a1a51 1px;
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset{
+    background-color: rgba(199, 42, 42, 0.515); 
+    border: #72cd66 1px;
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}

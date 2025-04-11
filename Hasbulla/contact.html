@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+<form action="mailto:info@classExample.com" method="post"
+    method="post"
+    enctype="text/plain">
+    
+<fieldset>
+    <legend>Personal Details</legend>
+    <label for="firstname">First Name</label>
+    <input type="text" id="firstname" name="firstname"
+    name="firstname" placeholder="Joe"> 
+
+<br>
+<br>
+
+    <label for="lastname">Last Name</label>
+    <input type="text" id="lastname" name="lastname"
+    name="firstname" placeholder="Hendry" required> 
+
+
+<p>Age Group</p>
+
+    <input type="radio" id="age1" name="age" value="1">
+    <label for="age1">15-16</label>
+<br>
+    <input type="radio" id="age2" name="age" value="2">
+    <label for="age2">16-17</label>
+<br>
+    <input type="radio" id="age3" name="age" value="3">
+    <label for="age3">17-18</label>
+<br>
+    <input type="radio" id="age4" name="age" value="4">
+    <label for="age4">18+</label>
+</fieldset>
+
+<fieldset>
+    <legend>Contact Information</legend>
+    <label for="email"> Email Address </label>
+    <input type="email" name="email" id="email"
+    placeholder="joehendry@wwe.com">
+
+    <br><br>
+    
+    <label for="phone"> Phone Number</label>
+    <input type="text" name="phone" id="phone" 
+    placeholder="7904 5371" required pattern="[0-9]{4}[4-8]{5}">
+
+    <br><br>
+
+    <fieldset>
+        <legend>Message Details</legend>
+            <label for="">Department:</label>
+            <select name="Department" id="Department">
+                <option value="" selected disabled>please select department</option>
+                <option value="1">Customer Support</option>
+                <option value="2">Technical Support</option>
+            </select>
+
+    <br><br>
+
+            <label for="Message">Message Joe Hendry Privately:</label>
+            <br>
+            <textarea name="Message" id="Message" 
+            cols="30" rows="10" 
+            placeholder="I have a problem with my account...">Message
+            </textarea>
+
+        
+    </fieldset>
+
+
+    <input type="checkbox" name="offers" id="offers">
+    <label for="offers">Contact me to meet Joe Hendry Live in London</label>
+    
+</fieldset>
+
+<br>
+
+
+
+
+
+    <button type="submit">Send Money!</button>
+    <button type="reset">Restart, and give me money later</button>
+
+</form>
+
+</body>
+</html>
